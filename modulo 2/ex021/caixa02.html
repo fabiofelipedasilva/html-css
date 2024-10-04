@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(138, 133, 133);
+            margin: 0px;
+        }
+        h1{
+            color: rgba(13, 13, 37, 0.726);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        header{ /* parte do cabeçalho */
+        
+            background-color: rgb(195, 199, 202);
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+            
+        }
+        nav {
+            background-color: rgb(189, 181, 181);
+            padding: 3px;
+            box-shadow: 5px 7px 7px rgba(63, 59, 59, 0.452)
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(94, 53, 53);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+         main{ /* menu do site */
+            background-color: rgb(215, 219, 218);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 6px 7px 8px rgb(49, 49, 49);
+        }
+        article{
+            background-color: rgb(147, 151, 147);
+            border-radius: 5px;
+        }
+        article > aside {
+            background-color: rgb(128, 133, 130);
+            border-radius: 5px;
+            color: white;
+        }
+      footer{    /*  rodapé do site*/
+            background-color: rgb(48, 49, 45);
+            color: white;
+            text-align: center;
+            padding: 4px;            
+            margin: 0px;            
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+
+        }
+      
+    </style>
+</head>
+<body>
+    <header>  <!--  cabeçalho-->
+        <h1> Meu site</h1>
+            <nav>
+                <a href="">Fabio</a>
+                <a href="">Fabio</a>
+                <a href="">Fabio</a>
+                <a href="">Fabio</a>
+                <a href="">Fabio</a>
+            </nav>
+    
+    </header>
+         <main>  <!--menu do site-->
+            <article>
+            <section id="assuntos">
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium possimus quo iste, in corrupti sit nihil autem odio porro quaerat atque quia mollitia! Corrupti voluptate culpa dolore hic, rerum autem.</P>
+            </article>
+            </section>
+            <section id="notícias">
+                <article>
+                    <h2>Notícia sobre a minha Evolução de Programador</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam similique explicabo rem eius corporis illum eos, quibusdam modi ipsa nam. Accusantium quam explicabo nobis neque sunt ipsam esse architecto assumenda.</p>
+                    <aside>
+                        <p>Artigo escrito por Fabio </p>
+                    </aside>
+                </article>
+                
+            </section>            
+        </main>
+            <footer>
+                <p>Desenvolvido por Fabio Felipe</p>
+            </footer>
+            <div id="bola"></div>
+</body>
+</html>
